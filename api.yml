@@ -1,2 +1,10 @@
 server:
   port: 11000
+  
+service:
+  order:
+    getone: get/
+  product:
+    getall: findAll
+  invoice:
+    generate: invoice/generate
